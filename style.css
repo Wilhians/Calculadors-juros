@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: url(https://wallpaperaccess.com/full/5582066.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #7f0b94;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 2px;
+    font-size: 16px;
+    text-align: left;
+
+}
+
+input[type="number"] {
+    width: 100px;
+}
+
+button {
+    margin-top: 2px;
+    border: 2px solid rgb(89, 12, 125);
+    border-radius: 9px;
+}
+
+button:hover {
+    background-color: #682788
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #7f0b94;
+    text-align: center;
+    padding: 5px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+footer a:hover {
+    color: #9900ff;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 15px;
+    border: 2px solid rgb(153, 16, 216);
+    border-radius: 25px;
+    background: rgb(31, 30, 29);
+    color: aliceblue;
+    width: 130vh;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+        gap: 23px;
+        width: 23vh;
+    }
+}

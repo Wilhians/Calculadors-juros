@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de juros C</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora de Juros Compostos</h1>
+ <section class="main">
+    <label for="principal">Capital:</label>
+    <input type="number" id="principal" placeholder="Valor Inicial">
+
+    <label for="taxa">Taxa de Juros (%):</label>
+    <input type="number" id="taxa" placeholder="Equivalente">
+
+    <label for="tempo">Tempo (em anos):</label>
+    <input type="number" id="tempo" placeholder="Juros ao ano">
+
+    <button onclick="calcularJuros()">Calcular</button>
+
+    <button onclick="reiniciar()">Reiniciar</button>
+    <h2>Montante</h2>
+    <p id="resultado"></p>
+
+ </section>
+ <footer>
+    <p>
+        <a href="https://github.com/Wilhians?tab=repositories" target="_blank">Github</a> | |
+        <a href="https://www.facebook.com/willians.gomes.12" target="_blank">Facebook</a>
+        &copy; 2023. ByWilhians.
+    </p>
+</footer>
+    <script src="index.js"></script>
+</body>
+</html>
